@@ -1,0 +1,42 @@
+/* В этом файле вы опишете значения переменных в разных цветовых схемах.
+Придерживайтесь такого именования классов:
+✦ theme-dark — класс тёмной темы
+✦ theme-light — класс светлой темы
+✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
+*/
+
+:root.theme-light {
+  --bg-color: #fff;
+  --accent-color: #000;
+  --bg-grid-color: #D3D3D3;
+  --bg-grad-start: #E7E7E7;
+  --bg-grad-end: #1A1A1A;
+  --contour-color: #000;
+  --btn-blend-color: #fff;
+}
+
+:root.theme-dark {
+  --bg-color: #000;
+  --accent-color: #00CC14;
+  --fw-main: 465;
+  --fw-card-title: 785;
+  --bg-grid-color: #000;
+  --bg-grad-start: #007F0C;
+  --bg-grad-end: #004306;
+  --contour-color: #00CC14;
+  --btn-blend-color: #00CC14;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #000;
+    --accent-color: #00CC14;
+    --fw-main: 465;
+    --fw-card-title: 785;
+    --bg-grid-color: #000;
+    --bg-grad-start: #007F0C;
+    --bg-grad-end: #004306;
+    --contour-color: #00CC14;
+    --btn-blend-color: #00CC14;
+  }
+}

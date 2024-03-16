@@ -1,0 +1,32 @@
+/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  
+  --section-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+
+/*ТИПОГРАФИКА */
+  
+  --ff-main: 'Inter Variable', sans-serif;
+  --ff-decor: 'Press Start 2P', monospace;
+  --fw-card-title: 700;
+  --fw-main: 400;
+
+/*ЦВЕТА*/
+
+  --bg-color: #fff;
+  --accent-color: #000;
+
+/* ЦВЕТА ФОНОВОГО ГРАДИЕНТА */
+
+  --bg-grid-color: #D3D3D3;
+  --bg-grad-start: #E7E7E7;
+  --bg-grad-end: #1A1A1A;
+
+/* ЦВЕТА ИКОНКИ ЛАЙКА */
+
+  --contour-color: #000;
+  --spark-color: red;
+
+/* Цвет текста кнопок */
+  --btn-blend-color: #fff;
+}
