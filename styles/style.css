@@ -144,7 +144,8 @@
 
 .card__title {
   font-size: 18px;
-  font-weight: var(--fw-card-title, 700);
+  /* font-weight: var(--fw-card-title, 700); */
+  font-variation-settings: 'wght' var(--fw-card-title);
   line-height: 21.78px;
   padding: 5px 10px;
   border-block-end: 2px solid var(--accent-color);
@@ -163,6 +164,7 @@
 
 .card__image-label {
   position: absolute;
+  z-index: 2;
   inset-block-start: 25px;
   inset-inline-end: clamp(0.8125rem, 0.5484rem + 1.1268vw, 1.5625rem);
   font-family: var(--ff-decor);
@@ -186,7 +188,6 @@
   gap: 27px;
   padding: 25px;
   font-size: 18px;
-  letter-spacing: 0.41px;
   line-height: 21px;
   font-weight: var(--fw-card-text, 400);
 }

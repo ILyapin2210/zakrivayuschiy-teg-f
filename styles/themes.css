@@ -8,6 +8,8 @@
 :root.theme-light {
   --bg-color: #fff;
   --accent-color: #000;
+  --fw-card-title: 700;
+  --fw-main: 400;
   --bg-grid-color: #D3D3D3;
   --bg-grad-start: #E7E7E7;
   --bg-grad-end: #1A1A1A;
