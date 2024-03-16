@@ -153,6 +153,7 @@
 
 .card__image-container {
   position: relative;
+  max-height: 696px;
 }
 
 .card__image {
@@ -396,7 +397,7 @@ dialog[open] {
 
 }
 
-.dialog__label {
+.dialog__capture {
   display: flex;
   gap: 20px;
   align-items: center;
@@ -408,6 +409,7 @@ dialog[open] {
 }
 
 .dialog__button {
+  width: 100%;
   position: relative;
   background-color: transparent;
   padding: 12.5px 0;
